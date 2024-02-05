@@ -24,7 +24,7 @@ contract XBS is
 {
     /// @notice Initializes the contract with a name, symbol, cap, and initial owner
     constructor()
-        ERC20("Xcelerate", "XB")
+        ERC20("Xcelerate", "XBS")
         ERC20Permit("Xcelerate")
         ERC20Capped(423 * 1e6)
         Ownable()
