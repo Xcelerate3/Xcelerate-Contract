@@ -1,0 +1,11 @@
+
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# misc
+.DS_Store
+.gitattributes
