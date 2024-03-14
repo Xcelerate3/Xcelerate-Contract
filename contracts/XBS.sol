@@ -26,7 +26,7 @@ contract XBS is
     constructor()
         ERC20("Xcelerate", "XBS")
         ERC20Permit("Xcelerate")
-        ERC20Capped(423 * 1e6)
+        ERC20Capped(423 * 1e6 * (10 ** uint256(18)))
         Ownable()
     {}
 
